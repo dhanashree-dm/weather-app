@@ -28,7 +28,7 @@
     font-weight: 400;
 }
 
-.search-icon img{
+.search-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,11 +38,25 @@
     border-radius: 40px;
     cursor: pointer;
 }
+.search-icon:hover {
+    width: 79px;
+    height: 79px;
+    background: #dae9e7;
+    border-radius: 40px;
+    cursor: pointer;
+    
+}
+
 
 .weather-image {
-    margin-top: 29px;
+    /* margin-top: 2px; */
     display: flex;
     justify-content: center;
+   
+}
+.weather-image img{
+   width: 200px;
+   height: 200px;
 }
 .weather-temp{
     display: flex;
@@ -72,10 +86,10 @@
     gap: 12px;
 }
 .data{
-    font-size: 44px;
+    font-size: 34px;
     font-weight: 400;
 }
 .text{
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 400;
 }
